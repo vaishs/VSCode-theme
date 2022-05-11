@@ -1,5 +1,5 @@
 # VSCode-theme
-A colorblindness-friendly theme for Visual Studio Code, built on the cucpake theme under Dobri Next.
+This is a simple way to get a colorblindness-friendly theme for Visual Studio Code, built on the cucpake theme under Dobri Next.
 
 This theme works well for most people. However, for people with Red-Blind/Protanopia or Green-Blind/Deuteranopia, the accent colours across types might not seem too different.
 
@@ -18,3 +18,4 @@ HOW TO INSTALL THIS THEME FOR VSCODE:
 10. This will open your `settings.json` file, and create a new section `editor.tokenColorCustomizations: {}`.
 11. Delete this section, and instead copy and paste the contents of `visiblefile` from this repository into your `settings.json` file. Do not overwrite any other existing code in `settings.json`.
 12. Save the `settings.json` file, and restart VSCode.
+13. You can change colors in the `visiblefile` section of your `settings.json` depending on what works for you.
