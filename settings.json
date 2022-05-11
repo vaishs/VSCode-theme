@@ -1,0 +1,102 @@
+    "editor.tokenColorCustomizations": 
+    {
+    
+      "[Dobri Next -C03- Cupcake]": 
+       {
+        "textMateRules": [
+            {
+              "scope": [
+                //following will be in italic
+                "storage.modifier", //static keyword
+                "storage.type.class.js", //class keyword
+              ],
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": [
+                  "comment"
+              ],
+              "settings": {
+                  "foreground": "#ff9999",
+                  "fontStyle": ""
+              }
+            },
+            {
+              "scope": [
+                //following will be excluded from italics (VSCode has some defaults for italics)
+                "constant", 
+                "constant.numeric.css",
+                "keyword.other.unit.px.css",
+              ],
+              "settings": {
+                "fontStyle": ""
+              }
+            },
+            {
+              "scope": [
+                "keyword", 
+                "keyword.operator",
+                "keyword.control",
+                "constant",
+                "constant.language",
+                "constant.numeric.decimal.js",
+                "constant.numeric.json",
+                "other"
+              ],
+              "settings": {
+                "foreground": "#f57208",
+                "fontStyle": "bold"
+              }
+            },
+            {
+              "scope": [
+                "invalid"
+              ],
+              "settings": {
+                "foreground": "#ff0000",
+                "fontStyle": "bold italic"
+              }
+            },
+            {
+               "scope": [
+                 "string"
+               ],
+               "settings": {
+                 "foreground": "#e9bbbb"
+               } 
+            },
+            {
+                "scope": [
+                    "support.type",
+                    "support.type.property-name"
+                ],
+                "settings": {
+                    "foreground": "#80bfff"
+                }
+            },
+            {
+              "scope": [
+                  "source"
+              ],
+              "settings": {
+                  "foreground": "#ffffe6"
+              }
+            }
+           ]
+      }
+    },
+    "workbench.colorCustomizations": {
+    "[Dobri Next -C03- Cupcake]": 
+    {
+      "editor.background": "#001133",
+      "panel.background": "#001133",
+      "panel.border": "#86a9f0",
+      "editorGroup.border": "#86a9f0",
+      "tab.activeForeground": "#86a9f0",
+      "tab.activeBorder": "#86a9f0"
+    }
+    },
+    
+    "workbench.colorTheme": "Dobri Next -C03- Cupcake"
