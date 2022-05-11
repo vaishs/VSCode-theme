@@ -9,8 +9,8 @@ HOW TO INSTALL THIS THEME FOR VSCODE:
 1. Open VSCode.
 2. Install the Dobri Next - Themes and Icons Extension https://marketplace.visualstudio.com/items?itemName=sldobri.bunker
 3. In VSCode, naviagate to Extensions.
-4. Click on Dobri Next - Themes and Icons.
-5. Click Set Color Theme.
+4. Click on Dobri Next - Themes and Icons. This will open a new tab with various details about the extension.
+5. In the Dobri Next tab, click Set Color Theme.
 6. Choose Dobri Next-C03-Cupcake.
 7. Go to Settings. 
 8. In the search box, type "Token Color"
