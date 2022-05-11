@@ -15,5 +15,6 @@ HOW TO INSTALL THIS THEME FOR VSCODE:
 7. Go to Settings. 
 8. In the search box, type "Token Color"
 9. Under Editor: Token Color Customizations, click on Edit in settings.json
-10. Copy and paste the contents of the settings.json file in the brace inside  "editor.tokenColorCustomizations": {}"
-11. Save the settings.json file, and restart VSCode.
+10. This will open your settings.json file, and create a new section "editor.tokenColorCustomizations: {}"
+11. Delete this section, and instead copy and paste the contents of visiblefile from this repository into your settings.json file.
+12. Save the settings.json file, and restart VSCode.
