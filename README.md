@@ -18,4 +18,6 @@ HOW TO INSTALL THIS THEME FOR VSCODE:
 10. This will open your `settings.json` file, and create a new section `editor.tokenColorCustomizations: {}`.
 11. Delete this section, and instead copy and paste the contents of `visiblefile` from this repository into your `settings.json` file. Do not overwrite any other existing code in `settings.json`.
 12. Save the `settings.json` file, and restart VSCode.
-13. You can change colors in the `visiblefile` section of your `settings.json` depending on what works for you.
+13. You can change colors in the `visiblefile` section of your `settings.json` depending on what works for you. 
+
+NOTE: Use https://www.color-blindness.com/coblis-color-blindness-simulator/ and https://www.toptal.com/designers/colorfilter to see what your theme looks like for people with visual difficulties.
